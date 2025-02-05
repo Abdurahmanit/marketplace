@@ -2,33 +2,33 @@ package routes
 
 import (
 	"github.com/Abdurahmanit/marketplace/backend/controllers"
-
+	middleware "github.com/Abdurahmanit/marketplace/backend/middleare"
 	"github.com/gin-gonic/gin"
 )
 
 func SetupRoutes(router *gin.Engine) {
-	// Authentication routes
+	// Маршруты для аутентификации
 	auth := router.Group("/api/auth")
 	{
 		auth.POST("/register", controllers.Register)
 		auth.POST("/login", controllers.Login)
 	}
 
-	// Game routes
+	// Маршруты для игр
 	games := router.Group("/api/games")
 	{
 		games.GET("/", controllers.GetGames)
 	}
 
-	// Cart routes (protected by JWT middleware)
-	cart := router.Group("/api/cart").Use(middleware.JWTAuth())
+	// Маршруты для корзины (защищены JWT middleware)
+	cart := router.Group("/api/cart").Use(middleware.JWTAuthMiddleware())
 	{
 		cart.POST("/", controllers.AddToCart)
 		cart.DELETE("/:id", controllers.RemoveFromCart)
 	}
 
-	// Order routes (protected by JWT middleware)
-	orders := router.Group("/api/orders").Use(middleware.JWTAuth())
+	// Маршруты для заказов (защищены JWT middleware)
+	orders := router.Group("/api/orders").Use(middleware.JWTAuthMiddleware())
 	{
 		orders.POST("/", controllers.PlaceOrder)
 		orders.GET("/", controllers.GetOrders)
