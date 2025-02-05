@@ -4,6 +4,7 @@ import (
 	"marketplace/backend/models"
 	"marketplace/backend/utils"
 
+	"github.com/Abdurahmanit/marketplace/config"
 	"go.mongodb.org/mongo-driver/bson"
 	"golang.org/x/crypto/bcrypt"
 )
