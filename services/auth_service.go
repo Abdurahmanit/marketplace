@@ -1,8 +1,8 @@
 package services
 
 import (
-	"marketplace/backend/models"
-	"marketplace/backend/utils"
+	"github.com/Abdurahmanit/marketplace/backend/models"
+	"github.com/Abdurahmanit/marketplace/backend/utils"
 
 	"github.com/Abdurahmanit/marketplace/config"
 	"go.mongodb.org/mongo-driver/bson"

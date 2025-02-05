@@ -1,3 +1,5 @@
+github.com/Abdurahmanit/marketplace v0.0.0-20250205212746-702ca4cf0afb h1:dof2mey0ED775O0T8wUulsPpaZjs3yIJdtixVYeA6lI=
+github.com/Abdurahmanit/marketplace v0.0.0-20250205212746-702ca4cf0afb/go.mod h1:6fbomyvG0tZiPyFHqE6x9jECzfVzTL6xTR7c4NR1DC8=
 github.com/bytedance/sonic v1.12.8 h1:4xYRVRlXIgvSZ4e8iVTlMF5szgpXd4AfvuWgA8I8lgs=
 github.com/bytedance/sonic v1.12.8/go.mod h1:uVvFidNmlt9+wa31S1urfwwthTWteBgG0hWuoKAXTx8=
 github.com/bytedance/sonic/loader v0.1.1/go.mod h1:ncP89zfokxS5LZrJxl5z0UJcsk4M4yY2JpfqGeCtNLU=

@@ -1,8 +1,7 @@
 package routes
 
 import (
-	"marketplace/backend/controllers"
-	"marketplace/backend/middleware"
+	"github.com/Abdurahmanit/marketplace/backend/controllers"
 
 	"github.com/gin-gonic/gin"
 )

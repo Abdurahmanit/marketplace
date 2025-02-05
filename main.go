@@ -1,8 +1,8 @@
 package main
 
 import (
-	"marketplace/backend/config"
-	"marketplace/backend/routes"
+	"github.com/Abdurahmanit/marketplace/backend/config"
+	"github.com/Abdurahmanit/marketplace/backend/routes"
 
 	"github.com/gin-gonic/gin"
 )

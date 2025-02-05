@@ -1,8 +1,9 @@
-module github.com/Abdurahmanit/marketplace
+module github.com/Abdurahmanit/marketplace/backend
 
 go 1.23.4
 
 require (
+	github.com/Abdurahmanit/marketplace v0.0.0-20250205212746-702ca4cf0afb
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.10.0
 	go.mongodb.org/mongo-driver v1.17.2

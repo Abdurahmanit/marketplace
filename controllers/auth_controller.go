@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	"marketplace/backend/models"
-	"marketplace/backend/services"
 	"net/http"
+
+	"github.com/Abdurahmanit/marketplace/backend/models"
+	"github.com/Abdurahmanit/marketplace/backend/services"
 
 	"github.com/gin-gonic/gin"
 )
